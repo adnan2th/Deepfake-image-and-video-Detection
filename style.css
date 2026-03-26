@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5e9ff, #e0f2ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 520px;
+    background: white;
+    border-radius: 18px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+}
+
+.card h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.choice button {
+    width: 48%;
+    margin: 5px 1%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #7c3aed;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.choice button:hover {
+    background: #6d28d9;
+}
+
+.upload {
+    display: none;
+    margin-top: 20px;
+}
+
+.upload input {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.upload button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #22c55e;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+.highlight {
+    color: #22c55e;
+    font-weight: bold;
+    font-size: 18px;
+}

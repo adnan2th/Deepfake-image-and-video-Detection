@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deepfake Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="hero">
+
+    <div class="card">
+        <h1>AI Media Detection</h1>
+        <p class="subtitle">
+            Detect whether an image or video is <b>AI-Generated</b>, <b>Edited</b>, or <b>Real</b>
+            using deep learning.
+        </p>
+
+        <div class="choice">
+            <button onclick="showForm('image')">Upload Image</button>
+            <button onclick="showForm('video')">Upload Video</button>
+        </div>
+
+        <form method="POST" enctype="multipart/form-data">
+
+            <!-- IMAGE -->
+            <div id="imageForm" class="upload">
+                <input type="file" name="image" accept="image/*">
+                <button type="submit">Analyze Image</button>
+            </div>
+
+            <!-- VIDEO -->
+            <div id="videoForm" class="upload">
+                <input type="file" name="video" accept="video/*">
+                <button type="submit">Analyze Video</button>
+            </div>
+
+        </form>
+
+        {% if result %}
+        <div class="result">
+            <h3>Detection Result</h3>
+            {% for cls, prob in result %}
+                <p class="{% if cls == max_class %}highlight{% endif %}">
+                    {{ cls }} : {{ "%.4f"|format(prob) }}
+                </p>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+</div>
+
+<script>
+function showForm(type) {
+    document.getElementById("imageForm").style.display = "none";
+    document.getElementById("videoForm").style.display = "none";
+
+    if (type === "image") {
+        document.getElementById("imageForm").style.display = "block";
+    } else {
+        document.getElementById("videoForm").style.display = "block";
+    }
+}
+</script>
+
+</body>
+</html>
