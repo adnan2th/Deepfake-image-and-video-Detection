@@ -22,12 +22,6 @@ OpenCV<br>
 Flask<br>
 NumPy<br><br>
 
-<b>Installation:</b><br>
-git clone https://github.com/your-username/ai-detector.git<br>
-cd ai-detector<br>
-pip install -r requirements.txt<br>
-python app.py<br><br>
-
 <b>Model Classes:</b><br>
 Real<br>
 Edited<br>
