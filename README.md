@@ -1,23 +1,48 @@
-🧠 AI Image & Video Authenticity Detector
-<br>
-📌 Overview
-<br>
-This project aims to detect whether an image or video is Real, Edited, or AI-generated. With the rapid growth of Artificial Intelligence, fake and manipulated media is increasing, which can mislead people. Our system helps users identify authentic content and stay safe online.
-<br>
-🚀 Features
-🔍 Detect AI-generated content
-🖼️ Identify edited/manipulated images
-🎥 Analyze videos for authenticity
-⚡ Fast and efficient predictions
-🧑‍💻 User-friendly interface
-🎯 Motivation
-<br>
+<h1>🧠 AI Image & Video Authenticity Detector</h1>
 
-AI is evolving quickly and making life easier, but it also introduces risks like fake media. This project is built to reduce misinformation and create a safer digital environment.
+<b>Overview:</b><br>
+This project detects whether an image or video is Real, Edited, or AI-generated.<br>
+It helps users identify fake or misleading content online.<br><br>
 
-🛠️ Tech Stack
-Python
-TensorFlow / Keras
-OpenCV
-Flask (for deployment)
-NumPy
+<b>Features:</b><br>
+🔍 Detect AI-generated content<br>
+🖼️ Identify edited images<br>
+🎥 Analyze video authenticity<br>
+⚡ Fast predictions<br>
+🧑‍💻 User-friendly interface<br><br>
+
+<b>Motivation:</b><br>
+AI is growing fast and making life easier, but it also creates risks like fake media.<br>
+This project helps reduce misinformation and build a safer digital environment.<br><br>
+
+<b>Tech Stack:</b><br>
+Python<br>
+TensorFlow / Keras<br>
+OpenCV<br>
+Flask<br>
+NumPy<br><br>
+
+<b>Installation:</b><br>
+git clone https://github.com/your-username/ai-detector.git<br>
+cd ai-detector<br>
+pip install -r requirements.txt<br>
+python app.py<br><br>
+
+<b>Model Classes:</b><br>
+Real<br>
+Edited<br>
+AI-generated<br><br>
+
+<b>How It Works:</b><br>
+1. Upload image or video<br>
+2. Model processes input<br>
+3. Shows result (Real / Edited / AI)<br><br>
+
+<b>Future Improvements:</b><br>
+Improve accuracy<br>
+Real-time detection<br>
+Mobile app<br>
+More formats<br><br>
+
+<b>Author:</b><br>
+Adnan Hassan
