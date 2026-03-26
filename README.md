@@ -1,4 +1,4 @@
-<h1>🧠 AI Image & Video Authenticity Detector</h1>
+<h1>🧠 AI Image & Video Authenticity Detector(FYP)</h1>
 
 <b>Overview:</b><br>
 This project detects whether an image or video is Real, Edited, or AI-generated.<br>
