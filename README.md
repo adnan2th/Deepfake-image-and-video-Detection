@@ -1,5 +1,5 @@
 <h1>🧠 AI Image & Video Authenticity Detector(FYP)</h1>
-
+Dataset : https://kaggle.com/datasets/b4a9f5efb76f199486100aa7d6aad7c78b470088c117affa818063792d290ed4
 <b>Overview:</b><br>
 This project detects whether an image or video is Real, Edited, or AI-generated.<br>
 It helps users identify fake or misleading content online.<br><br>
@@ -37,6 +37,8 @@ Improve accuracy<br>
 Real-time detection<br>
 Mobile app<br>
 More formats<br><br>
+
+Model : https://drive.google.com/file/d/109IX-JL2o6apvKYk_ITlskjt1g-gKM1T/view?usp=sharing
 
 <b>Author:</b><br>
 Adnan Hassan
